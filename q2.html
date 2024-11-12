@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Management UI - Alert Display</title>
+</head>
+<body>
+    <h2>Question:</h2>
+    <p>How should the logical and physical IDs be displayed in the array Management UI when an alert is triggered?</p>
+    
+    <h2>Answer:</h2>
+    <p>The display of logical and physical IDs in the array Management UI should be intuitive and actionable:</p>
+
+    <h3>Unified Alert View:</h3>
+    <p>Present alerts in a centralized dashboard with clear indicators of severity and urgency.</p>
+
+    <h3>Detailed Component Information:</h3>
+    <ul>
+        <li><strong>Logical ID:</strong> Display prominently, as it's often the initial reference point.</li>
+        <li><strong>Physical ID:</strong> Shown alongside the logical ID for immediate correlation.</li>
+        <li><strong>Location Details:</strong> Include rack, chassis, and slot information.</li>
+    </ul>
+
+    <h3>Interactive Elements:</h3>
+    <p>Allow users to click on IDs to access more detailed views or initiate diagnostics.</p>
+
+    <h3>Visual Cues:</h3>
+    <p>Use color-coding (e.g., red for critical alerts) and icons to highlight important information.</p>
+
+    <h3>Contextual Data:</h3>
+    <ul>
+        <li>Provide timestamps, alert history, and any recent changes to the component.</li>
+    </ul>
+
+    <h3>Example Layout:</h3>
+    <div style="border: 1px solid #ccc; padding: 10px; margin-top: 10px;">
+        <p><strong>Alert:</strong> High Temperature Detected</p>
+        <p><strong>Logical ID:</strong> IOCard_3</p>
+        <p><strong>Physical ID:</strong> Serial #SN12345, Slot 5</p>
+        <p><strong>Location:</strong> Rack 12, Chassis B</p>
+        <p><strong>Severity:</strong> Critical</p>
+        <p><strong>Timestamp:</strong> 2024-11-12 10:15:00</p>
+    </div>
+</body>
+</html>
